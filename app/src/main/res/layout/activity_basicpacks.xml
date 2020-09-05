@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".basicpack"
+        android:id="@+id/basicpack"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BASIC PACK"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:id="@+id/checkBox"
+            android:text="How to Treat"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:id="@+id/checkBox1"
+            android:background="@color/yellow"
+            android:text="Listen to Me"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="Come Here"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="Sit"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="Down"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="Sleep"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="Roll"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="Stay"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="Bark"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="Heel"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="Food Permission"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="Leash Training"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="Stairs Training"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="NO"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="Go"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="Potty Training"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:layout_margin="20dp"
+            android:background="@drawable/buttonstylepink"
+            android:textColor="#fff"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:id="@+id/next"/>
+    </LinearLayout>
+</ScrollView>

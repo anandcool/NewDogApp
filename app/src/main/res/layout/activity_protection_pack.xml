@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".protectionpack"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROTECTION PACK"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:id="@+id/checkBox"
+            android:text="BARK"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:id="@+id/checkBox1"
+            android:background="@color/yellow"
+            android:text="WATCH"
+            android:checked="true"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="ATTACK"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="DOOR ALERT"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="HOUSE SECURITY"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="OWNER DEFENCE"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="SNIFFING"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="CHILD PROTECTION"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="ADVANCE SNIFFING"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="JUMP"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:background="@drawable/buttonstylepink"
+            android:textColor="#fff"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:id="@+id/btnjoin"/>
+    </LinearLayout>
+
+</ScrollView>

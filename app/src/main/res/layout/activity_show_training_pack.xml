@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".showtrainingpack"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHOW TRAINING PACK"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:id="@+id/checkBox"
+            android:checked="true"
+            android:text="RUNNING STYLE"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:id="@+id/checkBox1"
+            android:background="@color/yellow"
+            android:text="WALKING STYLE"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="STANDING POSE"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="SHOW TEETH"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="SOCIALISE DOG"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:text="HANDELING"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyChkTextColor"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:background="@drawable/buttonstylepink"
+            android:textColor="#fff"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:id="@+id/btnjoin"/>
+    </LinearLayout>
+</ScrollView>

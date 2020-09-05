@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "595508224535",
+    "firebase_url": "https://dogappchatapp.firebaseio.com",
+    "project_id": "dogappchatapp",
+    "storage_bucket": "dogappchatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595508224535:android:af5f40f8ba58941e68b252",
+        "android_client_info": {
+          "package_name": "com.example.dogapp20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595508224535-8m92os85q2oo7pgsrsrfjd6h995g3oel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dogapp20",
+            "certificate_hash": "4756c4dd80438afe9ba28226d672190f3ab4d9e2"
+          }
+        },
+        {
+          "client_id": "595508224535-m8tg0uv8mttihfb21d1dcok3dq2gc953.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOi1MSbT4zO-D_3kNLkbR_AMM51YADPJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595508224535-m8tg0uv8mttihfb21d1dcok3dq2gc953.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
